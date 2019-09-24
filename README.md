@@ -31,7 +31,9 @@ and uses fetch to post the data to the server
 `./src/hooks/form.js`
 * imports useState hook from react
 defines getter and setter for form values 
-```const [values, setValues] = useState({});
+
+```
+const [values, setValues] = useState({});
 ```
 * creates `handleChange` event listener that uses `setValues`to
 compile the form data as it's being typed by the user
@@ -45,7 +47,9 @@ current state of the`values`getter is
 * imports useQ hook from `./src/hooks/q.js`
 * imports useState and useEffect from react 
 * defines getter and setter for list items
-```const [items, setItems] = useState([])
+
+```
+const [items, setItems] = useState([])
 ```
 * sets an event listener on the `database` event that
 checks for changes to the list
